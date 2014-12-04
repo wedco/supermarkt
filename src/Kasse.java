@@ -1,18 +1,24 @@
 
 /**
  * Write a description of class Kasse here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author Colin Wedel
+ * @version 2014-12-04 1.0
  */
-public class Kasse
-{
+public class Kasse {
+    private int anzKassen;
     private String name;
     private boolean besetzt;
     private int laenge;
-    
+
     private Queue schlange;
 
+    /**
+     *
+     */
+    public Kasse(){
+
+    }
     /**
      *
      * @param name Setzt Kassen Name
@@ -60,7 +66,7 @@ public class Kasse
     public void anstellen(Kunde k){
         //toDo
     }
-    
+
     /**
      * Die Kasse wird in einer Zeile ausgegeben. Dabei werden alle Kunden die an der Kasse 
      * warten in der Zeile ausgegeben.
@@ -78,6 +84,6 @@ public class Kasse
         }
         schlange = ersatzSchlange;
         System.out.println();//Ende der Zeile;
-    }     
-    
+    }
+
 }

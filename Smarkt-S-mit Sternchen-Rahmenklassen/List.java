@@ -1,30 +1,13 @@
  
 
 /**
- * <p>Materialien zu den zentralen
- * Abiturpruefungen im Fach Informatik ab 2012 in 
- * Nordrhein-Westfalen.</p>
- * <p>Klasse List</p>
- * <p>Objekte der Klasse List verwalten beliebig viele, 
- * linear angeordnete Objekte. Auf hoechstens ein Listenobjekt, 
- * aktuelles Objekt genannt, kann jeweils zugegriffen werden. 
- * Wenn eine Liste leer ist, vollstaendig durchlaufen wurde oder 
- * das aktuelle Objekt am Ende der Liste geloescht wurde, gibt es 
- * kein aktuelles Objekt. Das erste oder das letzte Objekt einer 
- * Liste koennen durch einen Auftrag zum aktuellen Objekt gemacht werden. 
- * Außerdem kann das dem aktuellen Objekt folgende Listenobjekt 
- * zum neuen aktuellen Objekt werden. Das aktuelle Objekt kann gelesen, 
- * veraendert oder geloescht werden. Ausserdem kann vor dem aktuellen 
- * Objekt ein Listenobjekt eingefügt werden.</p>
- * 
- * <p>NW-Arbeitsgruppe: Materialentwicklung zum Zentralabitur 
- * im Fach Informatik</p>
  * 
  * @version 2011-03-31
  */
 public class List
 
-{ private Node first, tail, current;
+{
+    private Node first, tail, current;
 
     // Node
   private class Node { 
@@ -91,7 +74,7 @@ public class List
      * Objekt gibt und dieses nicht das letzte Objekt der 
      * Liste ist, wird das dem aktuellen Objekt in der Liste 
      * folgende Objekt zum aktuellen Objekt, andernfalls gibt 
-     * es nach Ausführung des Auftrags kein aktuelles Objekt, 
+     * es nach Ausfï¿½hrung des Auftrags kein aktuelles Objekt, 
      * d.h. hasAccess() liefert den Wert false.
      */
     public void next() { 

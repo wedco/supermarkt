@@ -1,7 +1,9 @@
 import java.awt.Graphics;
 
 /**
- * Write a description of class Supermarkt here.
+ * Der Supermarkt ist die Oberklasse mit der wir arbeiten.
+ * Hier werden die Simulationen durchgefuehrt und Kassen und Kunden angelegt.
+ * Dies ist praktisch die hauptschaltzentrale
  *
  * @author Colin Wedel
  * @version 2014-12-4 1.0
